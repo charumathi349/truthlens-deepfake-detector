@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/truthlens-deepfake-detector/static/css/main.5ed28e1a.css",
+    "main.js": "/truthlens-deepfake-detector/static/js/main.496f3bc0.js",
+    "index.html": "/truthlens-deepfake-detector/index.html",
+    "main.5ed28e1a.css.map": "/truthlens-deepfake-detector/static/css/main.5ed28e1a.css.map",
+    "main.496f3bc0.js.map": "/truthlens-deepfake-detector/static/js/main.496f3bc0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ed28e1a.css",
+    "static/js/main.496f3bc0.js"
+  ]
+}
