@@ -322,7 +322,7 @@ export default function DetectorPage({ addToHistory }) {
                 {
                     image && !loading && ( <
                         div style = {
-                            { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 } } > { /* Demo Mode Button */ } <
+                            { display: 'grid', gridTemplateColumns: '1fr', gap: 12 } } > { /* Demo Mode Button */ } <
                         button onClick = {
                             () => analyze(true) }
                         style = {
@@ -346,35 +346,12 @@ export default function DetectorPage({ addToHistory }) {
                         <
                         ScanLine size = { 18 }
                         />
-                        Demo Analyze(No API Key) <
+                        Analyze Now <
                         /button>
 
-                        { /* Real API Button */ } <
-                        button onClick = {
-                            () => analyze(false) }
-                        style = {
-                            {
-                                background: 'linear-gradient(135deg, #00f5ff, #0080ff)',
-                                border: 'none',
-                                color: '#000',
-                                padding: '16px',
-                                borderRadius: 12,
-                                fontFamily: 'Syne, sans-serif',
-                                fontWeight: 800,
-                                fontSize: '0.95rem',
-                                cursor: 'pointer',
-                                boxShadow: '0 0 30px #00f5ff44',
-                                display: 'flex',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                                gap: 10,
-                            }
-                        } >
+                        { /* Real API Button */ }
+
                         <
-                        ScanLine size = { 18 }
-                        />
-                        Real AI Analyze(API Key) <
-                        /button> <
                         /div>
                     )
                 }
